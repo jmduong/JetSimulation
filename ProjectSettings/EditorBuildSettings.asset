@@ -8,6 +8,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Main Menu.unity
     guid: 7b463468e7362db419958d9eebdb40d8
-  - enabled: 0
-    path: Assets/FighterInterceptor/Fighter.unity
-    guid: eb8c59fc10c95f84491ddb3be8d32236
+  - enabled: 1
+    path: Assets/Controllers.unity
+    guid: 2a83dd010542d2744bf59af99b4bc47c
+  - enabled: 1
+    path: Assets/GameIsOver.unity
+    guid: fb0800fed15c9bf49b7dec9af7b44b37

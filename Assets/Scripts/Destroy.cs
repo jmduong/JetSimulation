@@ -1,15 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Destroy : MonoBehaviour {
+public class DestroyBullet : MonoBehaviour {
 
     public GameObject Effect_02;
     private GameObject EffectReference;
-    public int score;
 
     void OnCollisionEnter(Collision other)
     {
-        score++;
         EffectReference = Instantiate(Effect_02, transform.position, Quaternion.identity);
         Destroy(gameObject);
     }
